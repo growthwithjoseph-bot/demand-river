@@ -123,7 +123,7 @@ function renderRiver(data) {
         <line x1="${x0}" y1="${seedY.toFixed(1)}" x2="${xEnd}" y2="${s.yc.toFixed(1)}" stroke="#6a5da3"
               stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="3 7"/>
         <text x="${labelX}" y="${(s.yc + 4).toFixed(1)}" text-anchor="start" font-size="12"
-              fill="#6a5da3" letter-spacing=".5">${s.g.modifier.toUpperCase()} · dry</text></g>`;
+              fill="#6a5da3" letter-spacing=".5">${esc(s.g.label || s.g.modifier.toUpperCase())} · dry</text></g>`;
       return;
     }
     const T = s.T, yc = s.yc, tStart = Math.min(T, 16) * 0.9; // modest fan so the seed isn't a blob
@@ -165,7 +165,7 @@ function renderRiver(data) {
         role="button" tabindex="0" aria-label="${esc(s.g.modifier)} questions, ${fmt(s.g.volume)} volume"/>
       ${pearls}
       <text class="stream-label" x="${labelX}" y="${(yc - 2).toFixed(1)}" text-anchor="start"
-        font-size="13" font-weight="800" fill="${color}">${s.g.modifier.toUpperCase()} · ${fmt(s.g.volume)}</text>
+        font-size="13" font-weight="800" fill="${color}">${esc(s.g.label || s.g.modifier.toUpperCase())} · ${fmt(s.g.volume)}</text>
       <text x="${labelX}" y="${(yc + 14).toFixed(1)}" text-anchor="start" font-size="10.5"
         fill="#a99fd6" style="pointer-events:none">${fmt(s.g.count)} questions</text></g>`;
   });
@@ -229,7 +229,7 @@ function hideTip() { tooltip.hidden = true; }
 function openPanel(mod) {
   const g = CURRENT.groups.find(x => x.modifier === mod);
   if (!g) return;
-  $("panelTitle").innerHTML = `<span style="color:${COLORS[mod]}">${mod.toUpperCase()}</span> · ${fmt(g.count)} questions · ${fmt(g.volume)} vol`;
+  $("panelTitle").innerHTML = `<span style="color:${COLORS[mod]}">${esc(g.label || mod.toUpperCase())}</span> · ${fmt(g.count)} questions · ${fmt(g.volume)} vol`;
   const rows = (g.keywords || []).map(k =>
     `<div class="kwrow"><span class="kw">${esc(k.k)}</span>
       <span class="vol">${fmt(k.v)}</span>
