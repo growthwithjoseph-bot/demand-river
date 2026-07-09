@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Demand River — see where the demand flows</title>
+  <meta name="description" content="Type a keyword. See the questions people actually ask — as glowing streams whose width is the search volume." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">🌊 <b>Demand River</b></div>
+    <div class="tagline">See where the demand flows.</div>
+  </header>
+
+  <form id="seedForm" class="controls">
+    <input id="seed" class="seed-input" placeholder="Type a keyword — e.g. hubspot, crm, protein powder" autocomplete="off" />
+    <select id="country" class="country">
+      <option value="2840" selected>🇺🇸 US</option>
+      <option value="2826">🇬🇧 UK</option>
+      <option value="2124">🇨🇦 Canada</option>
+      <option value="2036">🇦🇺 Australia</option>
+      <option value="2276">🇩🇪 Germany</option>
+      <option value="2250">🇫🇷 France</option>
+      <option value="2724">🇪🇸 Spain</option>
+      <option value="2380">🇮🇹 Italy</option>
+    </select>
+    <button id="go" type="submit" class="go">Reveal the river →</button>
+  </form>
+
+  <div id="banner" class="banner" hidden></div>
+
+  <section id="summary" class="summary" hidden>
+    <span class="s-seed" id="sSeed"></span>
+    <span class="s-stat"><b id="sKw">0</b> questions</span>
+    <span class="s-stat"><b id="sVol">0</b> monthly searches</span>
+    <span class="s-stat"><b id="sGroups">0</b> question types</span>
+    <button id="pngBtn" class="ghost" hidden>⬇ Export PNG</button>
+  </section>
+
+  <main id="stage" class="stage">
+    <div class="hero" id="hero">
+      <h1>Every keyword hides a river of questions.</h1>
+      <p>Type a seed above. We surface the questions people actually search —
+        <em>how, what, is, can, should, why…</em> — and render each as a glowing
+        stream whose <b>width is its total search volume</b>. The widest stream is
+        where demand runs deepest.</p>
+      <button class="try" id="tryDemo">▶ See a live example (hubspot)</button>
+    </div>
+    <div id="river"></div>
+  </main>
+
+  <aside id="panel" class="panel" hidden>
+    <div class="panel-head">
+      <h3 id="panelTitle">Stream</h3>
+      <button class="panel-close" id="panelClose" aria-label="Close">✕</button>
+    </div>
+    <div class="panel-actions">
+      <button class="ghost sm" id="csvBtn">⧉ Copy as CSV</button>
+    </div>
+    <div id="panelBody" class="panel-body"></div>
+  </aside>
+
+  <div id="tooltip" class="tooltip" hidden></div>
+
+  <footer class="foot">
+    <span>Made with <b>Trendible</b> · powered by DataForSEO</span>
+    <a href="https://github.com/growthwithjoseph-bot/demand-river" target="_blank" rel="noopener">GitHub ↗</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

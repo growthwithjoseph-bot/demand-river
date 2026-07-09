@@ -1,0 +1,135 @@
+:root {
+  --bg: #0b0620;
+  --bg2: #140a33;
+  --ink: #ece9ff;
+  --muted: #a99fd6;
+  --line: rgba(255,255,255,.10);
+  --card: rgba(255,255,255,.04);
+  --neon: #05ffa1;
+  --pink: #ff2079;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(1200px 600px at 15% -10%, #2a1160 0%, transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, #3a0f52 0%, transparent 50%),
+    linear-gradient(180deg, var(--bg2) 0%, var(--bg) 60%);
+  min-height: 100vh;
+}
+
+.top { display: flex; align-items: baseline; gap: 14px; padding: 18px 24px 0; }
+.brand { font-size: 18px; letter-spacing: .2px; }
+.brand b { font-weight: 800; }
+.tagline { color: var(--muted); font-size: 13px; }
+
+.controls {
+  display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+  padding: 18px 24px; max-width: 1100px;
+}
+.seed-input {
+  flex: 1 1 340px; min-width: 240px;
+  background: rgba(255,255,255,.06); border: 1px solid var(--line);
+  color: var(--ink); border-radius: 12px; padding: 13px 16px; font-size: 15px;
+  outline: none; transition: border-color .15s, box-shadow .15s;
+}
+.seed-input::placeholder { color: #8478b8; }
+.seed-input:focus { border-color: var(--neon); box-shadow: 0 0 0 3px rgba(5,255,161,.18); }
+.country {
+  background: rgba(255,255,255,.06); border: 1px solid var(--line);
+  color: var(--ink); border-radius: 12px; padding: 12px 12px; font-size: 14px;
+}
+.country option { background: #1a0f3a; }
+.go {
+  border: 0; border-radius: 12px; padding: 13px 20px; font-size: 15px; font-weight: 700;
+  color: #071018; cursor: pointer;
+  background: linear-gradient(90deg, var(--neon), #01cdfe);
+  box-shadow: 0 6px 24px rgba(5,255,161,.25);
+}
+.go:disabled { opacity: .55; cursor: default; }
+
+.banner {
+  margin: 0 24px 6px; padding: 10px 14px; border-radius: 10px; font-size: 13px;
+  background: rgba(255,216,107,.10); border: 1px solid rgba(255,216,107,.35);
+  color: #ffe4a1; max-width: 1100px;
+}
+.banner.error { background: rgba(255,32,121,.12); border-color: rgba(255,32,121,.4); color: #ffb3ce; }
+
+.summary {
+  display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
+  padding: 4px 26px 0; color: var(--muted); font-size: 13.5px; max-width: 1100px;
+}
+.summary .s-seed { color: var(--ink); font-weight: 700; font-size: 15px; }
+.summary b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.ghost {
+  background: rgba(255,255,255,.06); border: 1px solid var(--line); color: var(--ink);
+  border-radius: 9px; padding: 7px 12px; font-size: 12.5px; cursor: pointer;
+}
+.ghost:hover { border-color: var(--neon); }
+.ghost.sm { padding: 5px 10px; font-size: 12px; }
+
+.stage { position: relative; padding: 10px 12px 40px; }
+.hero { max-width: 720px; margin: 40px auto 20px; text-align: center; padding: 0 16px; }
+.hero h1 { font-size: 30px; line-height: 1.15; margin: 0 0 12px; letter-spacing: -.5px; }
+.hero p { color: var(--muted); font-size: 15px; line-height: 1.6; }
+.hero em { color: var(--neon); font-style: normal; }
+.try {
+  margin-top: 16px; background: transparent; border: 1px solid var(--neon);
+  color: var(--neon); border-radius: 999px; padding: 10px 20px; font-weight: 600;
+  cursor: pointer; font-size: 14px;
+}
+.try:hover { background: rgba(5,255,161,.1); }
+
+#river { width: 100%; overflow-x: auto; }
+#river svg { width: 100%; height: auto; display: block; }
+.stream-path { cursor: pointer; transition: opacity .18s; }
+.stream-label { cursor: pointer; font-weight: 800; letter-spacing: 1.5px; }
+.pearl { cursor: pointer; }
+.dim { opacity: .28 !important; }
+
+.tooltip {
+  position: fixed; z-index: 60; pointer-events: none;
+  background: rgba(10,6,30,.96); border: 1px solid var(--line);
+  border-radius: 10px; padding: 9px 12px; font-size: 12.5px; color: var(--ink);
+  box-shadow: 0 12px 40px rgba(0,0,0,.5); max-width: 260px;
+}
+.tooltip .t-kw { font-weight: 700; margin-bottom: 4px; }
+.tooltip .t-row { color: var(--muted); }
+.tooltip .t-row b { color: var(--ink); }
+.tooltip .up { color: var(--neon); } .tooltip .down { color: var(--pink); }
+
+.panel {
+  position: fixed; top: 0; right: 0; height: 100vh; width: min(440px, 92vw);
+  background: linear-gradient(180deg, #160b38, #0d0726);
+  border-left: 1px solid var(--line); z-index: 55;
+  box-shadow: -20px 0 60px rgba(0,0,0,.5);
+  display: flex; flex-direction: column; transform: translateX(0);
+}
+.panel[hidden] { display: none; }
+.panel-head { display: flex; align-items: center; justify-content: space-between; padding: 16px 18px; border-bottom: 1px solid var(--line); }
+.panel-head h3 { margin: 0; font-size: 16px; }
+.panel-close { background: none; border: 0; color: var(--muted); font-size: 16px; cursor: pointer; }
+.panel-actions { padding: 12px 18px; border-bottom: 1px solid var(--line); }
+.panel-body { overflow-y: auto; padding: 8px 12px 24px; }
+.kwrow { display: grid; grid-template-columns: 1fr auto auto; gap: 10px; align-items: center; padding: 8px 6px; border-bottom: 1px solid var(--line); font-size: 13px; }
+.kwrow .kw { color: var(--ink); }
+.kwrow .vol { color: var(--muted); font-variant-numeric: tabular-nums; }
+.kwrow .grw { font-variant-numeric: tabular-nums; font-size: 12px; }
+.grw.up { color: var(--neon); } .grw.down { color: var(--pink); }
+.kwhead { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .5px; font-weight: 700; }
+
+.foot {
+  display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  padding: 18px 26px 30px; color: var(--muted); font-size: 12.5px; max-width: 1200px;
+}
+.foot a { color: var(--muted); }
+.foot a:hover { color: var(--neon); }
+
+/* loading shimmer streams */
+.loading-wrap { max-width: 900px; margin: 30px auto; }
+.load-stream { height: 14px; border-radius: 999px; margin: 14px 0; background:
+  linear-gradient(90deg, rgba(255,255,255,.04) 0%, rgba(5,255,161,.25) 50%, rgba(255,255,255,.04) 100%);
+  background-size: 200% 100%; animation: flow 1.4s linear infinite; }
+@keyframes flow { from { background-position: 200% 0; } to { background-position: -200% 0; } }

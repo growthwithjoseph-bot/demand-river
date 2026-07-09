@@ -1,0 +1,10 @@
+name = "demand-river"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# Secrets (set with wrangler, never commit them):
+#   wrangler secret put DATAFORSEO_LOGIN
+#   wrangler secret put DATAFORSEO_PASSWORD
+#
+# Deploy:  wrangler deploy   (from this worker/ directory)
+# The deploy URL becomes API_BASE in ../app.js — see ../DEPLOY.md.
