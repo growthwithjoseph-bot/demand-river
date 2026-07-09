@@ -5,7 +5,7 @@
  * Demo mode (default, and what GitHub Pages serves): API_BASE is empty, so it
  * loads the bundled public/sample-river.json and shows a "demo" banner.
  */
-const API_BASE = ""; // e.g. "https://demand-river.your-subdomain.workers.dev"
+const API_BASE = "https://demand-river.trendible.workers.dev"; // live Cloudflare Worker
 
 const MODIFIERS = ["how", "what", "is", "are", "can", "should", "which", "who", "why", "when", "where"];
 const COLORS = {
