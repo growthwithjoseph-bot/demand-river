@@ -181,7 +181,7 @@ function renderRiver(data) {
 
   wireInteractions();
   if (useSqrt) banner("One question type dominates — widths scaled for readability (√), so smaller streams stay visible.");
-  else if (data.demo) banner("🎬 Demo mode — showing a sample river for “hubspot”. Deploy the Worker with your DataForSEO key for live data (see README).");
+  else if (data.demo) banner("📸 A real snapshot from DataForSEO for “hubspot” (US). Deploy the Worker (see README) to run live searches on any keyword.");
   else hideBanner();
 }
 

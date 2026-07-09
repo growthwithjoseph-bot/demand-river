@@ -2,114 +2,3537 @@
   "seed": "hubspot",
   "country": "US",
   "demo": true,
-  "totalKeywords": 702,
-  "totalVolume": 1119600,
+  "snapshot": true,
+  "totalKeywords": 500,
+  "totalVolume": 50120,
   "groups": [
     {
-      "modifier": "how",
-      "count": 214,
-      "volume": 486000,
+      "modifier": "what",
+      "count": 123,
+      "volume": 35720,
       "keywords": [
-        {"k": "how to use hubspot", "v": 12100, "g": 14.2, "cpc": 4.1, "comp": "LOW"},
-        {"k": "how much is hubspot", "v": 8100, "g": 9.0, "cpc": 6.2, "comp": "MEDIUM"},
-        {"k": "how does hubspot work", "v": 5400, "g": 5.1, "cpc": 3.1, "comp": "LOW"},
-        {"k": "how to cancel hubspot", "v": 3600, "g": 22.0, "cpc": 2.0, "comp": "LOW"},
-        {"k": "how to delete hubspot account", "v": 2900, "g": -3.0, "cpc": 1.2, "comp": "LOW"}
+        {
+          "k": "what is hubspot",
+          "v": 9900,
+          "g": 7.4,
+          "cpc": 10.91,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is the hubspot",
+          "v": 9900,
+          "g": 7.4,
+          "cpc": 10.91,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a hubspot",
+          "v": 9900,
+          "g": 7.4,
+          "cpc": 10.91,
+          "comp": "LOW"
+        },
+        {
+          "k": "what does hubspot do",
+          "v": 1300,
+          "g": 25.0,
+          "cpc": 14.16,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot used for",
+          "v": 1000,
+          "g": 0.0,
+          "cpc": 9.26,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is crm hubspot",
+          "v": 320,
+          "g": 0.0,
+          "cpc": 27.37,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "what is hubspot crm",
+          "v": 320,
+          "g": 0.0,
+          "cpc": 27.37,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "what hubspot",
+          "v": 140,
+          "g": -64.4,
+          "cpc": 30.54,
+          "comp": "LOW"
+        },
+        {
+          "k": "what are hubspot credits",
+          "v": 110,
+          "g": -5.6,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what are snippets in hubspot",
+          "v": 110,
+          "g": -5.9,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is the purpose of the deals tool in hubspot",
+          "v": 90,
+          "g": 8.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a dynamic sequence in hubspot",
+          "v": 90,
+          "g": 742.9,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a hubspot dashboard",
+          "v": 70,
+          "g": -26.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot marketing hub",
+          "v": 70,
+          "g": -11.8,
+          "cpc": 6.42,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot for",
+          "v": 70,
+          "g": 42.1,
+          "cpc": 27.16,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot academy",
+          "v": 70,
+          "g": 0.0,
+          "cpc": 4.09,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot and how does it work",
+          "v": 50,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is an attribution model hubspot",
+          "v": 50,
+          "g": 45.5,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what are hubspot credits used for",
+          "v": 50,
+          "g": 133.3,
+          "cpc": 98.11,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a core seat in hubspot",
+          "v": 50,
+          "g": 7.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what does hubspot look like",
+          "v": 40,
+          "g": 8.3,
+          "cpc": 8.23,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "what is a social media audit hubspot",
+          "v": 40,
+          "g": 100.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot cms",
+          "v": 40,
+          "g": -8.3,
+          "cpc": 6.4,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a marketing contact in hubspot",
+          "v": 40,
+          "g": -27.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot vs salesforce",
+          "v": 40,
+          "g": 72.7,
+          "cpc": 8.22,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a developer seat in hubspot",
+          "v": 40,
+          "g": 1500.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a completed event referred to in hubspot",
+          "v": 40,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot breeze",
+          "v": 40,
+          "g": 80.0,
+          "cpc": 6.14,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot software",
+          "v": 30,
+          "g": -11.1,
+          "cpc": 15.72,
+          "comp": "LOW"
+        },
+        {
+          "k": "what can hubspot do",
+          "v": 30,
+          "g": 12.5,
+          "cpc": 3.15,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a deal in hubspot",
+          "v": 30,
+          "g": -12.5,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is the most effective email marketing campaign strategy hubspot",
+          "v": 30,
+          "g": 50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what companies use hubspot",
+          "v": 30,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is company domain name in hubspot",
+          "v": 30,
+          "g": -20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot crm used for",
+          "v": 30,
+          "g": 57.1,
+          "cpc": 19.21,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "what does hubspot cost",
+          "v": 30,
+          "g": 25.0,
+          "cpc": 15.12,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "what hubspot does",
+          "v": 30,
+          "g": 28.6,
+          "cpc": 18.39,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a sequence in hubspot",
+          "v": 30,
+          "g": 25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what hubspot do",
+          "v": 30,
+          "g": 28.6,
+          "cpc": 18.39,
+          "comp": "LOW"
+        },
+        {
+          "k": "what do hubspot do",
+          "v": 30,
+          "g": 28.6,
+          "cpc": 18.39,
+          "comp": "LOW"
+        },
+        {
+          "k": "what does hubspot sell",
+          "v": 30,
+          "g": 100.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot service hub",
+          "v": 30,
+          "g": 0.0,
+          "cpc": 2.67,
+          "comp": "LOW"
+        },
+        {
+          "k": "what does hubspot do exactly",
+          "v": 30,
+          "g": 83.3,
+          "cpc": 6.11,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a company domain name in hubspot",
+          "v": 30,
+          "g": -50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot inc",
+          "v": 30,
+          "g": 22.2,
+          "cpc": 24.88,
+          "comp": "LOW"
+        },
+        {
+          "k": "what are sequences in hubspot",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot sales hub",
+          "v": 20,
+          "g": -12.5,
+          "cpc": 8.72,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a vanity metric hubspot",
+          "v": 20,
+          "g": 166.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a hubspot sequence",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a workflow in hubspot",
+          "v": 20,
+          "g": -58.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a buyer persona hubspot",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is an object in hubspot",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is jobs theory hubspot",
+          "v": 20,
+          "g": 66.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is social selling the inbound way hubspot",
+          "v": 20,
+          "g": 150.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a pillar page hubspot",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a pop up form hubspot",
+          "v": 20,
+          "g": -20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is the cost of hubspot",
+          "v": 20,
+          "g": 50.0,
+          "cpc": 10.93,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "what is hubspot app",
+          "v": 20,
+          "g": -14.3,
+          "cpc": 27.76,
+          "comp": "LOW"
+        },
+        {
+          "k": "what exactly does hubspot do",
+          "v": 20,
+          "g": -33.3,
+          "cpc": 40.8,
+          "comp": "LOW"
+        },
+        {
+          "k": "what type of software is hubspot",
+          "v": 20,
+          "g": -16.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a backlink profile hubspot",
+          "v": 20,
+          "g": 20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what are hubspot sequences",
+          "v": 20,
+          "g": 20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a hubspot workflow",
+          "v": 20,
+          "g": -60.0,
+          "cpc": 21.69,
+          "comp": "LOW"
+        },
+        {
+          "k": "what font does hubspot use",
+          "v": 20,
+          "g": 16.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a static segment in hubspot",
+          "v": 20,
+          "g": 0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is the definition of segmentation hubspot",
+          "v": 20,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot email",
+          "v": 20,
+          "g": 40.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is inbound marketing hubspot",
+          "v": 20,
+          "g": 40.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a social media audit hubspot answer",
+          "v": 20,
+          "g": 50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a property in hubspot",
+          "v": 20,
+          "g": 16.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot ai",
+          "v": 20,
+          "g": -50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what does hubspot do for marketing",
+          "v": 20,
+          "g": 133.3,
+          "cpc": 10.74,
+          "comp": "LOW"
+        },
+        {
+          "k": "what are marketing contacts in hubspot",
+          "v": 20,
+          "g": -20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot sales",
+          "v": 20,
+          "g": 133.3,
+          "cpc": 23.9,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "what industry is hubspot in",
+          "v": 20,
+          "g": -28.6,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is the definition of contact management hubspot",
+          "v": 20,
+          "g": -14.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a marketing experiment hubspot",
+          "v": 20,
+          "g": -20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a pop-up form hubspot",
+          "v": 20,
+          "g": -20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a passive buyer hubspot",
+          "v": 20,
+          "g": 40.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is radio select in hubspot",
+          "v": 20,
+          "g": 16.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what does hubspot offer",
+          "v": 20,
+          "g": 25.0,
+          "cpc": 16.55,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a lead in hubspot",
+          "v": 20,
+          "g": -20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a trigger event hubspot",
+          "v": 20,
+          "g": -16.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot certification",
+          "v": 20,
+          "g": 60.0,
+          "cpc": 6.42,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a static list in hubspot",
+          "v": 20,
+          "g": -58.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is hubspot used for in marketing",
+          "v": 20,
+          "g": -57.1,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a crm hubspot",
+          "v": 20,
+          "g": -33.3,
+          "cpc": 31.63,
+          "comp": "LOW"
+        },
+        {
+          "k": "what are segments in hubspot",
+          "v": 20,
+          "g": 0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is fallback value in hubspot",
+          "v": 20,
+          "g": -44.4,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is an active buyer hubspot",
+          "v": 20,
+          "g": -20.0,
+          "cpc": 43.49,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is the difference between work groups and teams hubspot",
+          "v": 10,
+          "g": 50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is personalization hubspot",
+          "v": 10,
+          "g": -25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is the best way to advertise on instagram hubspot",
+          "v": 10,
+          "g": -25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a non marketing contact in hubspot",
+          "v": 10,
+          "g": 33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a conversation hubspot quizlet",
+          "v": 10,
+          "g": -100.0,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "what is one advantage of advertising on linkedin hubspot",
+          "v": 10,
+          "g": 50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what exactly is hubspot used for",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is google page experience hubspot",
+          "v": 10,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what does hubspot crm do",
+          "v": 10,
+          "g": 33.3,
+          "cpc": 54.96,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "what is the definition of graymail hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is social listening hubspot",
+          "v": 10,
+          "g": 0,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "what are the steps of the grow coaching technique hubspot",
+          "v": 10,
+          "g": 200.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a twitter stream hubspot",
+          "v": 10,
+          "g": -100.0,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "what is a hubspot agency",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "what is the definition of contact management hubspot certification",
+          "v": 10,
+          "g": -66.7,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "what is hubspot reddit",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is a call-to-action button hubspot certification",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what are kpis hubspot",
+          "v": 10,
+          "g": 0,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "what does hubspot crm look like",
+          "v": 10,
+          "g": 66.7,
+          "cpc": 31.08,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "what does hubspot actually do",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is the purpose of hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 50.99,
+          "comp": "LOW"
+        },
+        {
+          "k": "what are the benefits of hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "what does hubspot free include",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 19.64,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "what are deal stages hubspot certification",
+          "v": 10,
+          "g": -100.0,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "what is ai hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "what is lifecycle stage in hubspot",
+          "v": 10,
+          "g": 66.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what can hubspot do for my business",
+          "v": 10,
+          "g": 0,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "what does hubspot",
+          "v": 10,
+          "g": 66.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is subscription type in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what does hubspot operations hub do",
+          "v": 10,
+          "g": -66.7,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "what is a company domain in hubspot",
+          "v": 10,
+          "g": 50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "what does hubspot mean",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 8.94,
+          "comp": "LOW"
+        },
+        {
+          "k": "what is the definition of an email marketing strategy hubspot",
+          "v": 10,
+          "g": -100.0,
+          "cpc": 0,
+          "comp": null
+        }
       ]
     },
     {
-      "modifier": "what",
-      "count": 168,
-      "volume": 312000,
+      "modifier": "how",
+      "count": 227,
+      "volume": 6760,
       "keywords": [
-        {"k": "what is hubspot", "v": 40500, "g": 6.0, "cpc": 5.0, "comp": "LOW"},
-        {"k": "what does hubspot do", "v": 9900, "g": 11.0, "cpc": 4.2, "comp": "LOW"},
-        {"k": "what is hubspot used for", "v": 6600, "g": 8.0, "cpc": 3.9, "comp": "LOW"},
-        {"k": "what is hubspot crm", "v": 5400, "g": 7.0, "cpc": 6.8, "comp": "MEDIUM"},
-        {"k": "what companies use hubspot", "v": 2400, "g": 4.0, "cpc": 2.1, "comp": "MEDIUM"}
+        {
+          "k": "how much does hubspot cost",
+          "v": 320,
+          "g": 7.8,
+          "cpc": 16.1,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how much is hubspot",
+          "v": 320,
+          "g": 0.0,
+          "cpc": 18.97,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to use hubspot",
+          "v": 320,
+          "g": 0.0,
+          "cpc": 9.54,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how does hubspot work",
+          "v": 170,
+          "g": -6.2,
+          "cpc": 5.85,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to merge contacts in hubspot",
+          "v": 110,
+          "g": 6.5,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how many employees does hubspot have",
+          "v": 110,
+          "g": 9.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how can you mark a task as complete in hubspot",
+          "v": 110,
+          "g": 3.2,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to delete hubspot account",
+          "v": 90,
+          "g": 8.0,
+          "cpc": 166.73,
+          "comp": "LOW"
+        },
+        {
+          "k": "how much is hubspot per month",
+          "v": 90,
+          "g": 89.5,
+          "cpc": 15.65,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to merge companies in hubspot",
+          "v": 90,
+          "g": 7.4,
+          "cpc": 9.79,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to export contacts from hubspot",
+          "v": 90,
+          "g": -54.8,
+          "cpc": 2.99,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a list in hubspot",
+          "v": 90,
+          "g": 23.5,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to connect hubspot to gmail",
+          "v": 70,
+          "g": 0.0,
+          "cpc": 15.15,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to connect hubspot to outlook",
+          "v": 70,
+          "g": 10.5,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to add hubspot to outlook",
+          "v": 70,
+          "g": -8.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create an email template in hubspot",
+          "v": 70,
+          "g": -17.4,
+          "cpc": 6.98,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create email templates in hubspot",
+          "v": 70,
+          "g": -19.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how many customers does hubspot have",
+          "v": 70,
+          "g": -19.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create email template in hubspot",
+          "v": 70,
+          "g": -19.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how long has hubspot been around",
+          "v": 50,
+          "g": 21.4,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how much does hubspot cost per month",
+          "v": 50,
+          "g": 237.5,
+          "cpc": 19.31,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how much is hubspot crm",
+          "v": 50,
+          "g": -27.8,
+          "cpc": 19.06,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to get hubspot certified",
+          "v": 50,
+          "g": -17.6,
+          "cpc": 8.5,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to create a sequence in hubspot",
+          "v": 50,
+          "g": -21.1,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to use hubspot crm",
+          "v": 50,
+          "g": 18.8,
+          "cpc": 8.88,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how much is hubspot worth",
+          "v": 50,
+          "g": 7.1,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to import contacts into hubspot",
+          "v": 50,
+          "g": -7.1,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to change marketing contact status in hubspot",
+          "v": 50,
+          "g": 6.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to import contacts in hubspot",
+          "v": 50,
+          "g": -7.1,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to get hubspot certification",
+          "v": 50,
+          "g": -17.6,
+          "cpc": 8.5,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how much is hubspot a month",
+          "v": 50,
+          "g": 0.0,
+          "cpc": 9.53,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to become hubspot partner",
+          "v": 40,
+          "g": -33.3,
+          "cpc": 41.18,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to connect email to hubspot",
+          "v": 40,
+          "g": -15.4,
+          "cpc": 25.19,
+          "comp": "LOW"
+        },
+        {
+          "k": "how hubspot works",
+          "v": 40,
+          "g": 0.0,
+          "cpc": 18.47,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to create a form in hubspot",
+          "v": 40,
+          "g": -25.0,
+          "cpc": 4.62,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to become a hubspot partner",
+          "v": 40,
+          "g": -33.3,
+          "cpc": 41.18,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to add hubspot to gmail",
+          "v": 40,
+          "g": -7.7,
+          "cpc": 16.38,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to connect gmail to hubspot",
+          "v": 40,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to schedule an email in hubspot",
+          "v": 40,
+          "g": 333.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to hubspot",
+          "v": 40,
+          "g": 7.7,
+          "cpc": 25.14,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to make a contact a marketing contact in hubspot",
+          "v": 40,
+          "g": 30.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to make someone a marketing contact in hubspot",
+          "v": 40,
+          "g": 27.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to add hubspot extension to gmail",
+          "v": 40,
+          "g": 40.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how big is hubspot",
+          "v": 40,
+          "g": 15.4,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how does hubspot make money",
+          "v": 40,
+          "g": -14.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how do objects organize your hubspot data",
+          "v": 30,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to send mass email in hubspot",
+          "v": 30,
+          "g": -12.5,
+          "cpc": 7.39,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to add users to hubspot",
+          "v": 30,
+          "g": 14.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create list in hubspot",
+          "v": 30,
+          "g": 28.6,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to set up hubspot",
+          "v": 30,
+          "g": -22.2,
+          "cpc": 24.87,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to create a template in hubspot",
+          "v": 30,
+          "g": -16.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a workflow in hubspot",
+          "v": 30,
+          "g": -60.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how old is hubspot",
+          "v": 30,
+          "g": 25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to delete a contact in hubspot",
+          "v": 30,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to merge deals in hubspot",
+          "v": 30,
+          "g": 66.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to export hubspot contacts to excel",
+          "v": 30,
+          "g": -12.5,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to add user to hubspot",
+          "v": 30,
+          "g": 14.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to connect linkedin to hubspot",
+          "v": 30,
+          "g": 12.5,
+          "cpc": 26.25,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to delete a hubspot account",
+          "v": 30,
+          "g": 28.6,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to cancel hubspot subscription",
+          "v": 30,
+          "g": -44.4,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to send mass emails in hubspot",
+          "v": 30,
+          "g": -12.5,
+          "cpc": 7.39,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to create a landing page hubspot",
+          "v": 30,
+          "g": -27.3,
+          "cpc": 5.57,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a deal in hubspot",
+          "v": 30,
+          "g": -10.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to contact hubspot support",
+          "v": 30,
+          "g": -45.5,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a landing page on hubspot",
+          "v": 30,
+          "g": -27.3,
+          "cpc": 5.57,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create lists in hubspot",
+          "v": 30,
+          "g": 28.6,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to use hubspot for marketing",
+          "v": 30,
+          "g": -11.1,
+          "cpc": 6.39,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to create a landing page in hubspot",
+          "v": 30,
+          "g": -27.3,
+          "cpc": 5.57,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to learn hubspot",
+          "v": 30,
+          "g": -33.3,
+          "cpc": 5.34,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how many employees at hubspot",
+          "v": 30,
+          "g": -11.1,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to connect outlook to hubspot",
+          "v": 30,
+          "g": 10.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how much does hubspot crm cost",
+          "v": 30,
+          "g": -8.3,
+          "cpc": 29.08,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to make someone a super admin in hubspot",
+          "v": 30,
+          "g": 11.1,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a static list in hubspot",
+          "v": 30,
+          "g": -50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to cancel hubspot",
+          "v": 30,
+          "g": -12.5,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to unbounce a contact in hubspot",
+          "v": 30,
+          "g": -30.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to change email signature in hubspot",
+          "v": 30,
+          "g": -20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a segment in hubspot",
+          "v": 20,
+          "g": 0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to change non marketing contact status in hubspot",
+          "v": 20,
+          "g": 16.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a newsletter in hubspot",
+          "v": 20,
+          "g": -60.0,
+          "cpc": 5.28,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to merge two companies in hubspot",
+          "v": 20,
+          "g": 20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how long does hubspot certification take",
+          "v": 20,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to edit email templates in hubspot",
+          "v": 20,
+          "g": -14.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to use hubspot sales",
+          "v": 20,
+          "g": 33.3,
+          "cpc": 11.17,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to edit deal stages in hubspot",
+          "v": 20,
+          "g": -16.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create template in hubspot",
+          "v": 20,
+          "g": 20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how much does hubspot cost per year",
+          "v": 20,
+          "g": 25.0,
+          "cpc": 5.36,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to use hubspot for email marketing",
+          "v": 20,
+          "g": -37.5,
+          "cpc": 9.64,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to connect zoom to hubspot",
+          "v": 20,
+          "g": 75.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to link hubspot to gmail",
+          "v": 20,
+          "g": 20.0,
+          "cpc": 12.16,
+          "comp": "LOW"
+        },
+        {
+          "k": "how can you refine your content distribution strategy hubspot",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to export deals from hubspot",
+          "v": 20,
+          "g": -37.5,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to integrate hubspot with gmail",
+          "v": 20,
+          "g": -16.7,
+          "cpc": 10.88,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to merge two contacts in hubspot",
+          "v": 20,
+          "g": 33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to unpublish a form in hubspot",
+          "v": 20,
+          "g": 40.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to export data from hubspot",
+          "v": 20,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how many users does hubspot have",
+          "v": 20,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to delete a deal in hubspot",
+          "v": 20,
+          "g": -14.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how should you begin your sales presentation hubspot",
+          "v": 20,
+          "g": 50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to link hubspot to outlook",
+          "v": 20,
+          "g": -25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a report in hubspot",
+          "v": 20,
+          "g": -14.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to embed hubspot form in wordpress",
+          "v": 20,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to make an email template in hubspot",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to set up lead scoring in hubspot",
+          "v": 20,
+          "g": -16.7,
+          "cpc": 1.17,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to export contacts in hubspot",
+          "v": 20,
+          "g": -66.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a survey in hubspot",
+          "v": 20,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to get hubspot api key",
+          "v": 20,
+          "g": -11.1,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to add users in hubspot",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how expensive is hubspot",
+          "v": 20,
+          "g": -20.0,
+          "cpc": 14.74,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to add contact to a list in hubspot",
+          "v": 20,
+          "g": -70.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to add email signature in hubspot",
+          "v": 20,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to make a list in hubspot",
+          "v": 20,
+          "g": -20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to enroll contacts in a sequence hubspot",
+          "v": 20,
+          "g": 14.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to use hubspot for sales",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 9.38,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to create a campaign in hubspot",
+          "v": 20,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a lead in hubspot",
+          "v": 20,
+          "g": 80.0,
+          "cpc": 3.09,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to install hubspot plugin for outlook",
+          "v": 20,
+          "g": 100.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how many companies use hubspot",
+          "v": 20,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to find hubspot id",
+          "v": 20,
+          "g": 100.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to connect your email to hubspot",
+          "v": 20,
+          "g": -16.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to merge accounts in hubspot",
+          "v": 20,
+          "g": 20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create sequences in hubspot",
+          "v": 20,
+          "g": -14.3,
+          "cpc": 15.36,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to enroll a list in a sequence hubspot",
+          "v": 20,
+          "g": -66.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to edit email template in hubspot",
+          "v": 20,
+          "g": -14.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create templates in hubspot",
+          "v": 20,
+          "g": 20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how is hubspot different from salesforce",
+          "v": 20,
+          "g": 50.0,
+          "cpc": 4.79,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to create workflows in hubspot",
+          "v": 20,
+          "g": -70.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how do i add hubspot to my outlook",
+          "v": 20,
+          "g": 20.0,
+          "cpc": 56.94,
+          "comp": "LOW"
+        },
+        {
+          "k": "how long does it take to get hubspot certified",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to send an email in hubspot",
+          "v": 20,
+          "g": -14.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a pipeline in hubspot",
+          "v": 20,
+          "g": 50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to integrate hubspot with outlook",
+          "v": 20,
+          "g": -50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to import contacts into hubspot from excel",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how much of the buyer's journey is digital hubspot",
+          "v": 20,
+          "g": 150.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a custom object in hubspot",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to sign up for hubspot academy without a company",
+          "v": 20,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to add contacts to a list in hubspot",
+          "v": 20,
+          "g": -70.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create an email in hubspot",
+          "v": 20,
+          "g": -57.1,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create workflow in hubspot",
+          "v": 20,
+          "g": -70.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to export all contacts from hubspot",
+          "v": 20,
+          "g": -25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how much is hubspot professional",
+          "v": 20,
+          "g": 33.3,
+          "cpc": 12.47,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to add hubspot certification to linkedin",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to connect calendar to hubspot",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to merge contacts on hubspot",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to find duplicates in hubspot",
+          "v": 20,
+          "g": 20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a new pipeline in hubspot",
+          "v": 20,
+          "g": -14.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how long do hubspot certifications last",
+          "v": 20,
+          "g": -20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a contact list in hubspot",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to connect hubspot to power bi",
+          "v": 20,
+          "g": -20.0,
+          "cpc": 7.11,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to add hubspot extension to outlook",
+          "v": 20,
+          "g": 25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to add a contact to a list in hubspot",
+          "v": 20,
+          "g": -78.6,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to add contact to list in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to write a blog post hubspot",
+          "v": 10,
+          "g": -50.0,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "how to create a list of all contacts in hubspot",
+          "v": 10,
+          "g": -66.7,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "how does hubspot integrate with salesforce",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to connect hubspot to mailchimp",
+          "v": 10,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "how is hubspot crm free",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "how to become a hubspot certified partner",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to set up an email campaign in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create email signature in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how often should you be checking your attribution reports hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to become a hubspot consultant",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to use workflows in hubspot",
+          "v": 10,
+          "g": -66.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to edit hubspot email templates",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create custom object in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 11.28,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to set up email automation in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to find hubspot api key",
+          "v": 10,
+          "g": -20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to use hubspot for real estate",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "HIGH"
+        },
+        {
+          "k": "how to make a property mandatory in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how many emails can i send with hubspot",
+          "v": 10,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "how to send an email to a list in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to restore deleted contacts hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how hubspot crm works",
+          "v": 10,
+          "g": 50.0,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to add contacts to hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to use hubspot youtube",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how many people use hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create deal in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how many super admins hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to get out of hubspot contract",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create email template on hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a contact in hubspot",
+          "v": 10,
+          "g": -40.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how much hubspot cost",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 6.3,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to merge lists in hubspot",
+          "v": 10,
+          "g": -66.7,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "how to change deal stages in hubspot",
+          "v": 10,
+          "g": -25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how is hubspot free",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to work hubspot",
+          "v": 10,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to write a blog hubspot",
+          "v": 10,
+          "g": 100.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to block hubspot email tracking",
+          "v": 10,
+          "g": -50.0,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "how to create an email sequence in hubspot",
+          "v": 10,
+          "g": 33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to make contacts marketing contacts hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create meeting link in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a newsletter on hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 4.44,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to edit a sequence in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to download all contacts from hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to connect hubspot to linkedin",
+          "v": 10,
+          "g": 25.0,
+          "cpc": 41.34,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to set up sequences in hubspot",
+          "v": 10,
+          "g": 66.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a calendar link in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 11.72,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a quote in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to create email template hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create deals in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create contact list in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to merge hubspot contacts",
+          "v": 10,
+          "g": 33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create form in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 8.09,
+          "comp": "LOW"
+        },
+        {
+          "k": "how much does hubspot pay",
+          "v": 10,
+          "g": 50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to-use hubspot for customer service",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to send a marketing email in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to track leads in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create a hubspot landing page",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 8.94,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to create landing page in hubspot",
+          "v": 10,
+          "g": -40.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to use target accounts in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to clone a deal in hubspot",
+          "v": 10,
+          "g": -40.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to make hubspot dark mode",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to add emails to hubspot",
+          "v": 10,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "how to send a test email in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how does hubspot email tracking work",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to set working hours in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to connect apollo to hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 11.11,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to add leads in hubspot",
+          "v": 10,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to add hubspot form to wordpress",
+          "v": 10,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to connect linkedin ads to hubspot",
+          "v": 10,
+          "g": 66.7,
+          "cpc": 9.21,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to change lead status options in hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how can social media listening increase customer advocacy hubspot",
+          "v": 10,
+          "g": 100.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how does hubspot use ai",
+          "v": 10,
+          "g": -25.0,
+          "cpc": 10.39,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to create hubspot account",
+          "v": 10,
+          "g": -50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how to use hubspot playbooks",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "how does hubspot crm work",
+          "v": 10,
+          "g": 20.0,
+          "cpc": 13.93,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "how to personalize emails in hubspot",
+          "v": 10,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        }
       ]
     },
     {
       "modifier": "is",
-      "count": 96,
-      "volume": 143000,
+      "count": 71,
+      "volume": 4740,
       "keywords": [
-        {"k": "is hubspot free", "v": 18100, "g": 12.0, "cpc": 3.2, "comp": "LOW"},
-        {"k": "is hubspot a crm", "v": 6600, "g": 5.0, "cpc": 4.1, "comp": "LOW"},
-        {"k": "is hubspot worth it", "v": 4400, "g": 18.0, "cpc": 3.8, "comp": "LOW"},
-        {"k": "is hubspot good", "v": 3600, "g": 6.0, "cpc": 2.9, "comp": "LOW"}
-      ]
-    },
-    {
-      "modifier": "can",
-      "count": 61,
-      "volume": 61000,
-      "keywords": [
-        {"k": "can hubspot integrate with salesforce", "v": 1600, "g": 9.0, "cpc": 7.9, "comp": "MEDIUM"},
-        {"k": "can hubspot send invoices", "v": 1300, "g": 30.0, "cpc": 2.4, "comp": "LOW"},
-        {"k": "can hubspot track emails", "v": 1000, "g": 14.0, "cpc": 3.1, "comp": "LOW"}
+        {
+          "k": "is hubspot a crm",
+          "v": 880,
+          "g": 0.0,
+          "cpc": 30.56,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot down",
+          "v": 880,
+          "g": 14.5,
+          "cpc": 15.83,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot free",
+          "v": 590,
+          "g": -6.2,
+          "cpc": 41.48,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is hubspot hipaa compliant",
+          "v": 210,
+          "g": -24.7,
+          "cpc": 54.01,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot academy legit",
+          "v": 110,
+          "g": 25.8,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot publicly traded",
+          "v": 110,
+          "g": -25.6,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot legit",
+          "v": 90,
+          "g": 16.0,
+          "cpc": 70.58,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a good company to work for",
+          "v": 90,
+          "g": 30.4,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot academy free",
+          "v": 70,
+          "g": -8.0,
+          "cpc": 6.35,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a public company",
+          "v": 70,
+          "g": -15.8,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot public",
+          "v": 70,
+          "g": -17.4,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot crm free",
+          "v": 70,
+          "g": 19.0,
+          "cpc": 30.11,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is hubspot down right now",
+          "v": 70,
+          "g": 64.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a cms",
+          "v": 70,
+          "g": 8.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot crm",
+          "v": 50,
+          "g": -38.5,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot profitable",
+          "v": 50,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a good crm",
+          "v": 50,
+          "g": 35.7,
+          "cpc": 59.91,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is there a free version of hubspot",
+          "v": 50,
+          "g": 0.0,
+          "cpc": 24.04,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is hubspot like salesforce",
+          "v": 50,
+          "g": 7.1,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot good",
+          "v": 40,
+          "g": 8.3,
+          "cpc": 64.92,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is hubspot worth it",
+          "v": 40,
+          "g": 50.0,
+          "cpc": 80.06,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is hubspot similar to salesforce",
+          "v": 40,
+          "g": 8.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a good place to work",
+          "v": 40,
+          "g": -16.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot easy to learn",
+          "v": 40,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a fortune 500 company",
+          "v": 30,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a saas company",
+          "v": 30,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot better than salesforce",
+          "v": 30,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is there a hubspot desktop app",
+          "v": 30,
+          "g": 11.1,
+          "cpc": 25.76,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot certification free",
+          "v": 30,
+          "g": 25.0,
+          "cpc": 6.94,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a crm tool",
+          "v": 30,
+          "g": 11.1,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot easy to use",
+          "v": 30,
+          "g": 12.5,
+          "cpc": 39.78,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is hubspot saas",
+          "v": 30,
+          "g": -10.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a good stock to buy",
+          "v": 30,
+          "g": 100.0,
+          "cpc": 3.57,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a buy",
+          "v": 30,
+          "g": 140.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a crm or cms",
+          "v": 30,
+          "g": -42.9,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot hard to learn",
+          "v": 30,
+          "g": 14.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot good for small businesses",
+          "v": 20,
+          "g": 33.3,
+          "cpc": 48.11,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is hubspot a cdp",
+          "v": 20,
+          "g": -25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot remote",
+          "v": 20,
+          "g": -50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot good for small business",
+          "v": 20,
+          "g": 33.3,
+          "cpc": 48.11,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is hubspot an esp",
+          "v": 20,
+          "g": -20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot safe",
+          "v": 20,
+          "g": 50.0,
+          "cpc": 203.25,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a project management tool",
+          "v": 20,
+          "g": -12.5,
+          "cpc": 9.72,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot academy accredited",
+          "v": 20,
+          "g": -20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a erp",
+          "v": 20,
+          "g": 50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a competitor to salesforce",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot certification worth it",
+          "v": 20,
+          "g": 40.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot stock a buy",
+          "v": 20,
+          "g": 40.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot really free",
+          "v": 20,
+          "g": 20.0,
+          "cpc": 34.66,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is hubspot crm really free",
+          "v": 20,
+          "g": 16.7,
+          "cpc": 3.57,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is hubspot having issues",
+          "v": 20,
+          "g": 14.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot",
+          "v": 20,
+          "g": -20.0,
+          "cpc": 55.87,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a crm system",
+          "v": 20,
+          "g": 57.1,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot academy worth it",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot fortune 500",
+          "v": 20,
+          "g": -28.6,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot fedramp certified",
+          "v": 20,
+          "g": 20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot safe to use",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 22.25,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot free forever",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "HIGH"
+        },
+        {
+          "k": "is hubspot iso 27001 compliant",
+          "v": 10,
+          "g": -66.7,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "is hubspot soc 2 compliant",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is hubspot good for b2c",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot crm hipaa compliant",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot owned by google",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot free for nonprofits",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is hubspot secure",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot a social media management tool",
+          "v": 10,
+          "g": -25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is salesforce bigger than hubspot",
+          "v": 10,
+          "g": 100.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "is hubspot cms or crm",
+          "v": 10,
+          "g": -50.0,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "is hubspot good for ecommerce",
+          "v": 10,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is hubspot free worth it",
+          "v": 10,
+          "g": 33.3,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "is hubspot reliable",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 123.97,
+          "comp": "MEDIUM"
+        }
       ]
     },
     {
       "modifier": "why",
-      "count": 47,
-      "volume": 41000,
+      "count": 19,
+      "volume": 1340,
       "keywords": [
-        {"k": "why is hubspot so expensive", "v": 2900, "g": 35.0, "cpc": 2.6, "comp": "LOW"},
-        {"k": "why use hubspot", "v": 1600, "g": 8.0, "cpc": 3.4, "comp": "LOW"},
-        {"k": "why hubspot", "v": 720, "g": 4.0, "cpc": 2.1, "comp": "LOW"}
-      ]
-    },
-    {
-      "modifier": "which",
-      "count": 41,
-      "volume": 34000,
-      "keywords": [
-        {"k": "which hubspot certification is best", "v": 720, "g": 16.0, "cpc": 1.5, "comp": "LOW"},
-        {"k": "which companies use hubspot", "v": 480, "g": 5.0, "cpc": 2.0, "comp": "LOW"}
-      ]
-    },
-    {
-      "modifier": "should",
-      "count": 33,
-      "volume": 22000,
-      "keywords": [
-        {"k": "should i use hubspot", "v": 880, "g": 20.0, "cpc": 3.0, "comp": "LOW"},
-        {"k": "should i learn hubspot", "v": 590, "g": 25.0, "cpc": 1.8, "comp": "LOW"}
+        {
+          "k": "why choose hubspot",
+          "v": 480,
+          "g": -33.5,
+          "cpc": 11.03,
+          "comp": "LOW"
+        },
+        {
+          "k": "why go hubspot",
+          "v": 320,
+          "g": -25.2,
+          "cpc": 9.47,
+          "comp": "LOW"
+        },
+        {
+          "k": "why is hubspot stock down",
+          "v": 140,
+          "g": -7.9,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "why hubspot",
+          "v": 90,
+          "g": 0.0,
+          "cpc": 82,
+          "comp": "LOW"
+        },
+        {
+          "k": "why is hubspot stock down today",
+          "v": 70,
+          "g": 43.8,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "why are hashtags helpful hubspot",
+          "v": 40,
+          "g": 114.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "why did hubspot stock drop",
+          "v": 30,
+          "g": 80.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "why is hubspot stock falling",
+          "v": 20,
+          "g": 0,
+          "cpc": 5.58,
+          "comp": "LOW"
+        },
+        {
+          "k": "why is hubspot so slow",
+          "v": 20,
+          "g": -42.9,
+          "cpc": 144.88,
+          "comp": "LOW"
+        },
+        {
+          "k": "why should you create a negative persona hubspot",
+          "v": 20,
+          "g": 166.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "why is hubspot so expensive",
+          "v": 20,
+          "g": -33.3,
+          "cpc": 20.3,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "why is hubspot down",
+          "v": 20,
+          "g": 100.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "why does hubspot keep logging me out",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "why hubspot is used",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "why is hubspot better than salesforce",
+          "v": 10,
+          "g": -25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "why should you be careful about monitoring competitors hubspot",
+          "v": 10,
+          "g": 33.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "why are meta descriptions important hubspot",
+          "v": 10,
+          "g": -66.7,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "why is over-optimizing bad hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "why hubspot is the best place to work",
+          "v": 10,
+          "g": -100.0,
+          "cpc": 0,
+          "comp": null
+        }
       ]
     },
     {
       "modifier": "who",
-      "count": 22,
-      "volume": 12000,
+      "count": 10,
+      "volume": 560,
       "keywords": [
-        {"k": "who owns hubspot", "v": 4400, "g": 3.0, "cpc": 1.2, "comp": "LOW"},
-        {"k": "who uses hubspot", "v": 1300, "g": 7.0, "cpc": 1.9, "comp": "LOW"}
+        {
+          "k": "who owns hubspot",
+          "v": 320,
+          "g": 0.0,
+          "cpc": 73.79,
+          "comp": "LOW"
+        },
+        {
+          "k": "who are hubspot competitors",
+          "v": 50,
+          "g": 7.1,
+          "cpc": 12.17,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "who uses hubspot",
+          "v": 40,
+          "g": -27.3,
+          "cpc": 80.35,
+          "comp": "LOW"
+        },
+        {
+          "k": "who is the ceo of hubspot",
+          "v": 30,
+          "g": -25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "who are hubspot",
+          "v": 30,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "who founded hubspot",
+          "v": 30,
+          "g": -9.1,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "who is hubspot",
+          "v": 30,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "who is the founder of hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "who is hubspot owned by",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "who acquired hubspot",
+          "v": 10,
+          "g": 50.0,
+          "cpc": 0,
+          "comp": "LOW"
+        }
       ]
     },
     {
       "modifier": "when",
-      "count": 12,
-      "volume": 5400,
+      "count": 7,
+      "volume": 300,
       "keywords": [
-        {"k": "when was hubspot founded", "v": 1600, "g": 2.0, "cpc": 0.9, "comp": "LOW"},
-        {"k": "when to use hubspot", "v": 320, "g": 10.0, "cpc": 2.2, "comp": "LOW"}
+        {
+          "k": "when was hubspot founded",
+          "v": 110,
+          "g": 2.8,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "when did hubspot go public",
+          "v": 50,
+          "g": -25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "when did hubspot start",
+          "v": 40,
+          "g": 7.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "when is hubspot inbound",
+          "v": 30,
+          "g": -87.5,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "when did hubspot ipo",
+          "v": 30,
+          "g": -37.5,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "when does hubspot report earnings",
+          "v": 20,
+          "g": 266.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "when it comes to goal setting what are objectives hubspot",
+          "v": 20,
+          "g": 20.0,
+          "cpc": 0,
+          "comp": "LOW"
+        }
       ]
     },
     {
       "modifier": "where",
-      "count": 8,
-      "volume": 3200,
+      "count": 12,
+      "volume": 260,
       "keywords": [
-        {"k": "where is hubspot located", "v": 1000, "g": 3.0, "cpc": 0.8, "comp": "LOW"},
-        {"k": "where is hubspot headquarters", "v": 590, "g": 5.0, "cpc": 0.7, "comp": "LOW"}
+        {
+          "k": "where is hubspot based",
+          "v": 50,
+          "g": -47.6,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "where is hubspot located",
+          "v": 40,
+          "g": 10.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "where are workflows in hubspot",
+          "v": 20,
+          "g": -40.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "where are email templates in hubspot",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "where is hubspot headquarters located",
+          "v": 20,
+          "g": -76.9,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "where to find email templates in hubspot",
+          "v": 20,
+          "g": -14.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "where to find hubspot api key",
+          "v": 20,
+          "g": -25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "where are forms in hubspot",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "where is hubspot headquarters",
+          "v": 20,
+          "g": -42.9,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "where can you send a tracked email from hubspot certification",
+          "v": 10,
+          "g": -100.0,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "where to find forms in hubspot",
+          "v": 10,
+          "g": 66.7,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "where do i find lists in hubspot",
+          "v": 10,
+          "g": 0,
+          "cpc": 0,
+          "comp": "LOW"
+        }
+      ]
+    },
+    {
+      "modifier": "can",
+      "count": 14,
+      "volume": 190,
+      "keywords": [
+        {
+          "k": "can hubspot send text messages",
+          "v": 40,
+          "g": 25.0,
+          "cpc": 27.56,
+          "comp": "HIGH"
+        },
+        {
+          "k": "can hubspot be used for project management",
+          "v": 20,
+          "g": -28.6,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "can you text from hubspot",
+          "v": 20,
+          "g": -16.7,
+          "cpc": 33.45,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "can you export data from hubspot",
+          "v": 10,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "can i create a hubspot account without a website",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 227.1,
+          "comp": "LOW"
+        },
+        {
+          "k": "can you use hubspot for project management",
+          "v": 10,
+          "g": 33.3,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "can you connect linkedin to hubspot",
+          "v": 10,
+          "g": 66.7,
+          "cpc": 28.96,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "can i use hubspot to automate emails",
+          "v": 10,
+          "g": -100.0,
+          "cpc": 0,
+          "comp": null
+        },
+        {
+          "k": "can you use hubspot for free",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 13.7,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "can t login to hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "can you use hubspot for email marketing",
+          "v": 10,
+          "g": 0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "can hubspot send emails",
+          "v": 10,
+          "g": -25.0,
+          "cpc": 0,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "can hubspot integrate with quickbooks",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 17.51,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "can you build a website on hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "HIGH"
+        }
       ]
     },
     {
       "modifier": "are",
-      "count": 0,
-      "volume": 0,
-      "keywords": []
+      "count": 5,
+      "volume": 180,
+      "keywords": [
+        {
+          "k": "are hubspot certifications worth it",
+          "v": 90,
+          "g": 18.5,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "are hubspot certifications free",
+          "v": 40,
+          "g": -35.3,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "are hubspot and salesforce competitors",
+          "v": 20,
+          "g": -25.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "are hubspot and salesforce similar",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "are hubspot courses free",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        }
+      ]
+    },
+    {
+      "modifier": "which",
+      "count": 4,
+      "volume": 60,
+      "keywords": [
+        {
+          "k": "which hubspot certification is best",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "which companies use hubspot",
+          "v": 20,
+          "g": 0.0,
+          "cpc": 79.95,
+          "comp": "MEDIUM"
+        },
+        {
+          "k": "which kpi is a vanity metric hubspot",
+          "v": 10,
+          "g": 0.0,
+          "cpc": 0,
+          "comp": "LOW"
+        },
+        {
+          "k": "which hubspot tools do custom objects work with",
+          "v": 10,
+          "g": -50.0,
+          "cpc": 0,
+          "comp": null
+        }
+      ]
+    },
+    {
+      "modifier": "should",
+      "count": 1,
+      "volume": 10,
+      "keywords": [
+        {
+          "k": "should i use hubspot",
+          "v": 10,
+          "g": -33.3,
+          "cpc": 0,
+          "comp": null
+        }
+      ]
     }
   ]
 }
