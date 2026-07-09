@@ -8,7 +8,7 @@
 
 const DFS_URL = "https://api.dataforseo.com/v3/dataforseo_labs/google/keyword_suggestions/live";
 const LIMIT = 1000;                 // set to 500 to halve variable cost
-const RATE = { max: 5, windowMs: 10 * 60 * 1000 };
+const RATE = { max: 60, windowMs: 10 * 60 * 1000 }; // per-IP cost guard; generous for humans
 const TIMEOUT_MS = 25000;
 
 // canonical question types (colours in the frontend key off these)
