@@ -88,90 +88,92 @@ function renderRiver(data) {
   };
   const maxKwVol = Math.max(1, ...live.flatMap(g => g.keywords.map(k => k.v || 0)));
 
-  // vertical stacking (center-out) + dry streams at the bottom
+  // geometry: ribbons on the left/centre, a dedicated LABEL LANE on the right so
+  // labels never sit on top of pearls or other streams.
+  const seedX = 70, seedR = 34, x0 = seedX + seedR;
+  const LABEL_LANE = 220;
+  const xRun = 0.40 * W, xEnd = W - LABEL_LANE, labelX = xEnd + 16;
+
+  // vertical stacking (center-out). Each stream gets a generous slot so its pearl
+  // labels (above/below) can't collide with the neighbouring stream.
   const ordered = centerOut(live);
-  const GAP = 30;
-  let cursor = 40, seedTop = 40, seedBot = 40;
+  const GAP = 16;
+  let cursor = 48;
   const placed = [];
   ordered.forEach(g => {
     const T = thick(g.volume);
-    const yc = cursor + T / 2;
-    placed.push({ g, T, yc, dry: false });
-    cursor += T + GAP;
+    const slot = Math.max(T + 48, 82);
+    placed.push({ g, T, yc: cursor + slot / 2, dry: false });
+    cursor += slot + GAP;
   });
-  seedBot = cursor;
   const liveBottom = cursor;
-  dry.forEach(g => {
-    const yc = cursor + 2;
-    placed.push({ g, T: 2, yc, dry: true });
-    cursor += 2 + 26;
-  });
-  const H = cursor + 30;
-  const seedY = (40 + liveBottom - GAP) / 2;
+  dry.forEach(g => { placed.push({ g, T: 2, yc: cursor + 2, dry: true }); cursor += 32; });
+  const H = Math.round(cursor + 28);
+  const seedY = (48 + liveBottom - GAP) / 2;
 
-  const seedX = 70, seedR = 34, x0 = seedX + seedR;
-  const xRun = 0.42 * W, xEnd = W - 26;
-
-  let defs = `<filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
-      <feGaussianBlur stdDeviation="6" result="b"/><feMerge>
+  let defs = `<filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/><feMerge>
       <feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>`;
   let streams = "";
 
   placed.forEach((s, idx) => {
     const color = COLORS[s.g.modifier] || "#8b9dff";
-    const gid = `g${idx}`;
     if (s.dry) {
       streams += `<g class="stream" data-mod="${s.g.modifier}">
-        <line x1="${x0}" y1="${seedY}" x2="${xEnd}" y2="${s.yc}" stroke="#6a5da3"
-              stroke-opacity=".5" stroke-width="1.5" stroke-dasharray="4 6"/>
-        <text x="${xEnd}" y="${s.yc - 8}" text-anchor="end" font-size="11"
-              fill="#6a5da3" letter-spacing="1">${s.g.modifier.toUpperCase()} · dry</text></g>`;
+        <line x1="${x0}" y1="${seedY.toFixed(1)}" x2="${xEnd}" y2="${s.yc.toFixed(1)}" stroke="#6a5da3"
+              stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="3 7"/>
+        <text x="${labelX}" y="${(s.yc + 4).toFixed(1)}" text-anchor="start" font-size="12"
+              fill="#6a5da3" letter-spacing=".5">${s.g.modifier.toUpperCase()} · dry</text></g>`;
       return;
     }
-    const T = s.T, yc = s.yc, tStart = T * 0.55;
+    const T = s.T, yc = s.yc, tStart = Math.min(T, 16) * 0.9; // modest fan so the seed isn't a blob
     const cxa = x0 + (xRun - x0) * 0.5;
-    const path = `M ${x0} ${seedY - tStart / 2}
-      C ${cxa} ${seedY - tStart / 2}, ${cxa} ${yc - T / 2}, ${xRun} ${yc - T / 2}
-      L ${xEnd} ${yc - T / 2}
-      L ${xEnd} ${yc + T / 2}
-      L ${xRun} ${yc + T / 2}
-      C ${cxa} ${yc + T / 2}, ${cxa} ${seedY + tStart / 2}, ${x0} ${seedY + tStart / 2} Z`;
-    defs += `<linearGradient id="${gid}" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="${color}" stop-opacity=".08"/>
-      <stop offset="0.55" stop-color="${color}" stop-opacity=".5"/>
-      <stop offset="1" stop-color="${color}" stop-opacity=".85"/></linearGradient>`;
-
-    // pearls: top 5 keywords, ranked head-first along the run
-    const kws = (s.g.keywords || []).slice(0, 5);
-    const runL = xRun + 34, runR = xEnd - 160;
-    let pearls = "";
-    kws.forEach((k, i) => {
-      const px = kws.length > 1 ? runL + (runR - runL) * (i / (kws.length - 1)) : runL;
-      const r = 4 + 9 * Math.sqrt((k.v || 0) / maxKwVol);
-      const py = yc + (i % 2 ? 1 : -1) * Math.min(T / 2 - r - 2, 6);
-      const ly = py < yc ? py - r - 4 : py + r + 11;
-      pearls += `<circle class="pearl" cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="${r.toFixed(1)}"
-        fill="url(#p${idx})" stroke="${color}" stroke-opacity=".9" stroke-width="1"
-        data-kw="${esc(k.k)}" data-v="${k.v}" data-g="${k.g}" data-cpc="${k.cpc}" data-comp="${esc(k.comp)}"/>
-        <text x="${px.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="middle" font-size="10"
-        fill="#cfc7ff" style="pointer-events:none">${esc((k.k || "").length > 22 ? k.k.slice(0, 20) + "…" : k.k)}</text>`;
-    });
-    defs += `<radialGradient id="p${idx}"><stop offset="0" stop-color="#fff" stop-opacity=".95"/>
+    const path = `M ${x0} ${(seedY - tStart / 2).toFixed(1)}
+      C ${cxa} ${(seedY - tStart / 2).toFixed(1)}, ${cxa} ${(yc - T / 2).toFixed(1)}, ${xRun} ${(yc - T / 2).toFixed(1)}
+      L ${xEnd} ${(yc - T / 2).toFixed(1)} L ${xEnd} ${(yc + T / 2).toFixed(1)} L ${xRun} ${(yc + T / 2).toFixed(1)}
+      C ${cxa} ${(yc + T / 2).toFixed(1)}, ${cxa} ${(seedY + tStart / 2).toFixed(1)}, ${x0} ${(seedY + tStart / 2).toFixed(1)} Z`;
+    defs += `<linearGradient id="g${idx}" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="${color}" stop-opacity=".07"/>
+      <stop offset="0.5" stop-color="${color}" stop-opacity=".45"/>
+      <stop offset="1" stop-color="${color}" stop-opacity=".8"/></linearGradient>
+      <radialGradient id="p${idx}"><stop offset="0" stop-color="#fff" stop-opacity=".95"/>
       <stop offset="0.5" stop-color="${color}"/><stop offset="1" stop-color="${color}" stop-opacity=".6"/></radialGradient>`;
 
-    const label = `${s.g.modifier.toUpperCase()} · ${fmt(s.g.count)} kws · ${fmt(s.g.volume)} vol`;
+    // pearls along the run; label fewer of them on thin streams to avoid clutter
+    const kws = (s.g.keywords || []).slice(0, 5);
+    const runL = xRun + 36, runR = xEnd - 34;
+    const nLabels = T >= 28 ? 5 : (T >= 13 ? 3 : 2);
+    let pearls = "";
+    kws.forEach((k, i) => {
+      const px = kws.length > 1 ? runL + (runR - runL) * (i / (kws.length - 1)) : (runL + runR) / 2;
+      const r = 4 + 9 * Math.sqrt((k.v || 0) / maxKwVol);
+      const above = i % 2 === 0;
+      const py = yc + (above ? -1 : 1) * Math.min(Math.max(T / 2 - r - 2, 0), 5);
+      pearls += `<circle class="pearl" cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="${r.toFixed(1)}"
+        fill="url(#p${idx})" stroke="${color}" stroke-opacity=".9" stroke-width="1"
+        data-kw="${esc(k.k)}" data-v="${k.v}" data-g="${k.g}" data-cpc="${k.cpc}" data-comp="${esc(k.comp)}"/>`;
+      if (i < nLabels) {
+        const ly = above ? py - r - 6 : py + r + 13;
+        const short = (k.k || "").length > 15 ? k.k.slice(0, 14) + "…" : k.k;
+        pearls += `<text x="${px.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="middle" font-size="9.5"
+          fill="#cbc3f0" style="pointer-events:none">${esc(short)}</text>`;
+      }
+    });
+
     streams += `<g class="stream" data-mod="${s.g.modifier}">
-      <path class="stream-path" d="${path}" fill="url(#${gid})" filter="url(#glow)"
-        role="button" tabindex="0" aria-label="${esc(label)}"/>
+      <path class="stream-path" d="${path}" fill="url(#g${idx})" filter="url(#glow)"
+        role="button" tabindex="0" aria-label="${esc(s.g.modifier)} questions, ${fmt(s.g.volume)} volume"/>
       ${pearls}
-      <text class="stream-label" x="${xEnd}" y="${(yc - T / 2 - 9).toFixed(1)}" text-anchor="end"
-        font-size="13" fill="${color}">${esc(label)}</text></g>`;
+      <text class="stream-label" x="${labelX}" y="${(yc - 2).toFixed(1)}" text-anchor="start"
+        font-size="13" font-weight="800" fill="${color}">${s.g.modifier.toUpperCase()} · ${fmt(s.g.volume)}</text>
+      <text x="${labelX}" y="${(yc + 14).toFixed(1)}" text-anchor="start" font-size="10.5"
+        fill="#a99fd6" style="pointer-events:none">${fmt(s.g.count)} questions</text></g>`;
   });
 
   const seed = esc(data.seed || "seed");
-  const seedSvg = `<circle cx="${seedX}" cy="${seedY}" r="${seedR}" fill="#1b1147"
+  const seedSvg = `<circle cx="${seedX}" cy="${seedY.toFixed(1)}" r="${seedR}" fill="#1b1147"
       stroke="${COLORS.what}" stroke-width="1.5" filter="url(#glow)"/>
-    <text x="${seedX}" y="${seedY + 4}" text-anchor="middle" font-size="12" font-weight="800"
+    <text x="${seedX}" y="${(seedY + 4).toFixed(1)}" text-anchor="middle" font-size="12" font-weight="800"
       fill="#fff">${seed.length > 8 ? seed.slice(0, 7) + "…" : seed}</text>`;
 
   river.innerHTML = `<svg id="riverSvg" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">
